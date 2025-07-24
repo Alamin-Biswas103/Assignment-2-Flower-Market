@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 
 /* Google font link and class */
@@ -28,14 +28,17 @@
   font-style: normal;
 }
 
-body{
-    max-width: 1440px;
-    margin: 0 auto;
-}
+
 
 /* Common Design */
-.container{
-    padding: 0 10%;
+
+
+.orange{
+    color: #E95A08;
+}
+
+.para-text{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /*Navigation bar is styled here */
