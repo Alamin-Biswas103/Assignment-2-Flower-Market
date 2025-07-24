@@ -6,11 +6,31 @@
     <!-- Tailwind setup/link -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- css style sheet link -->
     <link rel="stylesheet" href="./style/style.css">
     <title>Flower Market</title>
 </head>
-<body>
-    
+<body class="inter-font">
+    <header>
+        <nav class="navbar container flex justify-between items-center">
+                <figure>
+                    <img class="w-2/4 sm:w-10/12" src="./assets/logo.png" alt="">
+                </figure>
+                <div class="flex items-center gap-[3vw]">
+                    <ul class="hidden md:flex gap-[3vw] items-center text-gray-400 font-bold">
+                        <li class="font-bold text-gray-700">Home</li>
+                        <li>Shop</li>
+                        <li>About Us</li>
+                    </ul>
+                    <div class="flex gap-1 items-center">
+                        <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        <p>Cart ($56)</p>
+                    </div>
+                </div>
+        </nav>
+    </header>
 </body>
 </html>
